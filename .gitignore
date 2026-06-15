@@ -1,0 +1,41 @@
+@'
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Arquivos temporários
+estrutura.txt
+*.tmp
+*.bak
+
+# Cache / modelos grandes
+.cache/
+models/
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.safetensors
+
+# Vídeos / gravações
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# VS Code / Windows
+.vscode/
+.DS_Store
+Thumbs.db
+
+# C# / .NET
+prism_kenz_csharp/**/bin/
+prism_kenz_csharp/**/obj/
+prism_kenz_csharp/.vs/
+*.user
+*.suo
+'@ | Set-Content -Encoding UTF8 .gitignore
